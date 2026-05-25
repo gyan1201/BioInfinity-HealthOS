@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OncoMind Systems | BioInfinity HealthOS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .company-hero {
+            padding: 100px 20px 40px;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .company-hero h1 {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            background: linear-gradient(to right, #fff, var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 40px;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+            border: 1px solid var(--accent);
+            padding: 10px 20px;
+            border-radius: 30px;
+            transition: all 0.3s;
+        }
+        .back-link:hover {
+            background: var(--accent);
+            color: #fff;
+        }
+        .content-section {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 24px;
+            padding: 40px;
+            max-width: 800px;
+            margin: 0 auto 40px;
+            backdrop-filter: blur(10px);
+        }
+        .content-section h3 {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        .content-section p {
+            font-size: 1.15rem;
+            color: #e0e0e0;
+            margin-bottom: 30px;
+        }
+        .content-section p:last-child {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-glow"></div>
+    <div class="background-glow secondary"></div>
+
+    <header class="company-hero">
+        <h1>OncoMind Systems</h1>
+        <span class="status-badge status-active">Phase 1 (Foundation)</span>
+    </header>
+
+    <main class="container">
+        <div class="content-section">
+            <h3>Goal</h3>
+            <p>Autonomous cancer detection, treatment design, and monitoring.</p>
+            
+            <h3>Plan</h3>
+            <p>Scan for early cancer signals via liquid biopsies and simulate tumor evolution to suggest precision treatments.</p>
+            
+            <h3>Deep Dive</h3>
+            <p>A dedicated oncological expert system. OncoMind analyzes imaging and circulating tumor DNA to catch cancer years before symptoms manifest. It actively interfaces with PharmaVerse to compute the optimal molecular combination to eradicate specific tumor mutations.</p>
+        </div>
+        
+        <div style="text-align: center;">
+            <a href="index.html" class="back-link">&larr; Back to Ecosystem</a>
+        </div>
+    </main>
+</body>
+</html>
