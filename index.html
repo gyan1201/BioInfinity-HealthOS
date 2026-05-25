@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioInfinity HealthOS | Ecosystem</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-glow"></div>
+    <div class="background-glow secondary"></div>
+
+    <header class="hero">
+        <h1 class="glitch" data-text="BioInfinity HealthOS">BioInfinity HealthOS</h1>
+        <p class="subtitle">The Limitless AI Ecosystem for Healthcare, Biotech, and Longevity</p>
+        <div class="mission-statement">
+            Sense every human &rarr; model every body &rarr; predict every disease &rarr; design every therapy &rarr; deliver every intervention &rarr; learn from every outcome.
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="grid" id="company-grid">
+            <!-- Cards will be injected via JS -->
+        </div>
+    </main>
+
+    <!-- Modal for detailed view -->
+    <div class="modal-overlay" id="modal">
+        <div class="modal-content">
+            <button class="close-btn" id="close-modal">&times;</button>
+            <h2 id="modal-title">Company Name</h2>
+            <div class="modal-body">
+                <div class="section">
+                    <h3>Goal</h3>
+                    <p id="modal-goal"></p>
+                </div>
+                <div class="section">
+                    <h3>Plan</h3>
+                    <p id="modal-plan"></p>
+                </div>
+                <div class="section">
+                    <h3>Status</h3>
+                    <span class="status-badge" id="modal-status"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
